@@ -1,0 +1,34 @@
+/* Your existing CSS styles */
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    position: relative;
+}
+
+#dateForm {
+    margin-top: 20px;
+}
+
+#dateForm label,
+#dateForm input,
+#dateForm button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#dateForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#dateForm button:hover {
+    background-color: #45a049;
+}
